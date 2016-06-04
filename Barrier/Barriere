@@ -1,0 +1,176 @@
+﻿IPOVEDENTI
+1. Immagini importanti che non si vedono
+
+2. Immagini importanti che vengono usate in bg
+
+3. Colori usati per impostare delle differenze
+
+4. Contrasto insufficiente
+5. Cliccando su link/bottoni il risultato si visualizza inun altro frame
+
+6. Immagini o testo in movimento
+
+7. Problemi con il focus delle mappe
+
+8. Disalineamento del foreground con background
+
+9. Mancanza di testo alternativo, cambiano lo stile o colore ho probelmi con l'immagine
+
+10. Link o immagini con testo troppo lungo
+
+11. Menu a comparsa che non si vede nell'area selezionata
+
+12. Pagina troppo ricca di contenuti non ha link interni
+
+13. Linee di testo lunghe 
+
+14. Troppi link (raggruppare)
+
+15. Premendo il submit di un form ho il refresh della pagina
+
+16. Il form ha i cambi sparsi per il mondo 
+
+17. Si aprono nuove finestre e coprono quella vecchia
+
+18. Refresh pagina troppo veloce
+
+19. Utilizzo di un' immagine come titolo
+
+20. Nessuna shortcuts da tastiera
+
+21. Testo non resizable (usare percentuale)
+
+22. Layout pagina non adattabile
+
+23. Elementi grafici che spariscono (linee, colori, spazi)
+
+24. La pagina non permette di saltare da un link all'altro (tab)
+
+25. Cambiamento di punti di riferimento con un nuovo browser
+
+26. Problemi con la tabella
+
+27. Con presenza del DOM in punti della pagina non sono visibili
+
+
+
+
+
+ANALisi Magnifier modalità Schermo intero 04/05/2016 300%
+
+
+HOME - www.uniud.it/it
+
+
+Immagine in movimento x
+
+Menu a comparsa xxxx
+
+Testo alternativo troppo lungo
+
+Troppi link
+
+Mancanza di shortcuts da tastiera
+
+Problema del form (cerca nel sito)
+
+Problemi con il tab (24) x
+
+
+
+AREA INTERNAZIONALE - www.uniud.it/it/international-area
+
+
+problemi con tab 
+shortcuts da tastiera 
+
+mancanza  di testo alternativo per le immagini
+
+problema del form
+DALTONICI
+
+1. 
+Il colore viene usato per visualizzare diffenenze
+
+2. Contrasto insufficiente
+
+ANALisi 11/05/2016
+
+HOME - www.uniud.it/it
+						
+Rapporto		
+Differenza di 	
+Differenza di 
+						luminosità/contrasto	luminoistà	colore
+
+-Finestra di avviso cookies			2.53:1			101		391
+-Logo+scritta uniud				2.94:1			118		408
+-Scritte news-cultura				2.94:1			118		408
+-Slidshow					1:1			0		0
+-Palline di selezione dello slideshow		2.94:1			118		408
+-Scritta'Ateneo' + menu a comparsa		2.94:1			118		408
+-Scritta 'Città'				3:1 (AA grande testo)	109		321
+-Scritta Futuro 				2.55:1			92		276
+-Scritta 'qui.uniud.it' sotto foto		2.94:1			118		408
+-Scritta 'Ateneo' arancia/banco			2.94:1			118		408
+-Scritta 'leggi tutto'				2.94:1			118		408
+-Menu a comparsa(alto a dx)			3.65:1(AA testo grande)	91		273		
+
+
+
+
+
+SENZA JAVASCRIPT
+
+1.Menu dinamico in JS
+
+2. Menu a cascata
+
+3. Eventi del mouse
+
+4. Form che si autocompila
+
+5. Form con aggiornamento pagina
+
+6. Presenza di form, campi e controlli validati solo con js
+
+7. Campi nascosti compilati prima dell'avvio solo da js
+
+8. Nuove pagine che si attivano solo tramite bottoni/links
+
+9. Controllli browser mancanti senza solito browser
+
+10. Necessario JS per implementazione pagina
+
+
+
+
+
+HOME - www.uniud.it/it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
