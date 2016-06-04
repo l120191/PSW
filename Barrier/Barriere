@@ -94,7 +94,7 @@ Il colore viene usato per visualizzare diffenenze
 
 2. Contrasto insufficiente
 
-ANALisi 11/05/2016
+ANALISI 11/05/2016
 
 HOME - www.uniud.it/it
 						
@@ -119,28 +119,27 @@ Differenza di
 
 
 
-
 SENZA JAVASCRIPT
 
-1.Menu dinamico in JS
+1.Menu dinamico in JS --> La "slideshow" non va, neppure cliccando sui "pallini" a destra. Il "menu3" non funziona.
 
-2. Menu a cascata
+2. Menu a cascata --> Il "menu2" non funziona.
 
-3. Eventi del mouse
+3. Eventi del mouse --> Un evento gestisce l'apertura del "menu 2".
 
-4. Form che si autocompila
+4. Form che si autocompila --> il "form" in alto a destra non mostra i consigliati.
 
-5. Form con aggiornamento pagina
+5. Form con aggiornamento pagina --> Non presente 
 
-6. Presenza di form, campi e controlli validati solo con js
+6. Presenza di form, campi e controlli validati solo con js --> Non presente
 
-7. Campi nascosti compilati prima dell'avvio solo da js
+7. Campi nascosti compilati prima dell'avvio solo da js --> Non presente
 
-8. Nuove pagine che si attivano solo tramite bottoni/links
+8. Nuove pagine che si attivano solo tramite bottoni/links --> Non presente 
 
-9. Controllli browser mancanti senza solito browser
+9. Controlli browser mancanti senza solito browser --> Non presente 
 
-10. Necessario JS per implementazione pagina
+10. Necessario JS per implementazione pagina --> Non presente
 
 
 
