@@ -1,0 +1,46 @@
+Test
+1.	Cerca la programmazione tv di domani in prima serata. [guida tv -> selezione giorno] Facile
+
+T1: 30” ok	
+T2: 35” (Tv Programmi regionali (in basso) – Guida tv - trovato)
+T3: 14” ok
+T4: 27” (I programmi – guida tv – giorno)
+
+2.	Trova i nomi delle persone che si occupano del programma Lynx Magazine [ programmi -> lynx] Facile
+
+T1: 30” ok	
+T2: 24” ok
+T3: 54” ok
+T4: 22” ok
+
+3.	Trova e ascolta il canale radio attualmente in onda [play da home] Facile
+
+T1: Fallito (Radio – Ultimo GRR)
+T2: 40” ok
+T3: 21” ok
+T4: 30” ok
+
+4.	Cerca la prossima messa in onda del programma radio  ‘Racconti sceneggati’ [scopri la messa in onda del programma -> inserimento nome programma] Media
+
+T1: 2’ 40” (Search – ritorno ad Home – Lista dei programmi)
+T2: 10” (I programmi)
+T3: 7” (i programmi - ok)
+T4: 1’ 12” (Search - I programmi – R )
+
+5.	Cerca la mail della direzione [ da menu-> La sede ] Media
+
+T1: 1’ 10” (Contatti – chi siamo – la sede)
+T2: 3’ 47” (Contatti – Home – Contatti – Chi siamo – Search - trovato)
+T3: 1’ 54”  (Contatti – Search (senza cancellare ‘Cerca nel sito’) Prima pagina  - La sede)
+T4: 34” (Contatti –– La sede)
+ 
+6.	Riguarda la puntata del tg della notte di due giorni fa [ menu di navigazione a dx in basso ‘ultimo tgr’] Difficile
+
+T1: 3’14” (Ultimo TGR -alto a dx (visionato il sito rai replay)- ritorno in Home)
+T2: 1’27” (I programmi – Ultimo TGR – Home – ob raggiunto)
+T3: Fallito (Ultimo TG – Home - I programmi – In alto ‘TV’ – Rai Replay – Home – Search – Tv Programma regionali)
+T4: 45” (I programmi – Ultimo TGR )
+
+
+
+Qustionario
