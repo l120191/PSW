@@ -1,0 +1,45 @@
+Teoria - Analisi - Perimetro indagini - casi - risultati
+
+TEORIA
+
+La simulazione euristica guidata da barriere è un metodo che viene utilizzato per la verifica dell'accessibilità, permette quindi di di verificare il livello di: 
+	- efficacia
+	- produttività
+	- soddisfazione
+	- sicurezza
+di un sito per gli utenti e utilizzi considerati.
+
+
+.Procedimento
+
+I valutatori hanno proceduto all'analisi del sito immedesimandosi nell'utente, con la disabilità presa in considerazione, che si trova immerso in un determinato scenario per poter indivuare possibili barriere a cui può andare incontro.
+
+Per barriera si intende una qualsiasi condizione che rendere difficile o impossibile il raggiungimento di un obbiettivo da parte di una persona disabile (o disabilitata) che usa il sito con l'aiuto di una tecnolgia assistiva.
+
+Uno scenario deve indicare: 
+	- utente con la sua disabilità
+	- situazione in cui si opera
+	- l'obbiettivo dell'utente
+	- eventi esterni
+
+Come valutatori ci si è basati sulle linee guida del Professor Giorgio Brajnik docente presso l'universita degli studi di Udine, disponibili a questo indirizzo: https://users.dimi.uniud.it/~giorgio.brajnik//projects/bw/bw.html, dove per ogni tipo di disabilità sono elencati le possibili violazioni che si possono presentre durante l'analisi.
+
+Per ogni violazione si valuta il livello di gravità in base a due parametri:
+	- impatto che un problema può avere sull'efficacia, produttività e sicurezza di un utente che sta svolgendo un determinato compito in una determinata situazione operativa
+	- frequenza con cui il problema si presenta all'utente durante lo svolgimento del compito
+	
+Per quanto riguarda l'impatto e la frequenza, per valutarne la gravità sono stati seguiti i seguenti criteri:
+- minore: la presenza della barriera viene notato dall'utente, ma è facilmente aggirabile o evitabile se la si riconosce o ricorda, incide sulla produttività e soddisfazione, ma non ull'efficacia e la sicurezza
+- serio: la barriera  viene notata e comporta una grossa influenza nel modo di proseguire il compito da parte dell'utente. Incide pesantemente sulla produttività e sulla soddisfazione, inoltre può incidere sull'efficacia e sulla sicurezza rendendo difficile, faticoso e/o rischiso il proseguimento, è possibile che l'utente esegua degli errori. E' difficile trovare soluzioni alternative per raggiungere lo scopo. 
+- critico: questa barriera porta molti utenti alla rinuncia del raggiungimento dello scopo, gli errori possono essere molti e con pesanti conseguenze; elevato l'impatto negativo su efficacia e sicurezza, e ancora di più quello su produttività e soddisfazione. Non è possibile trovare vie alternative per raggiungere lo scopo.
+
+_______________TABELLA DI GRAVITA'______________________________
+
+
+
+
+
+
+
+La simulazione euristica guidata da barriere per la verifica dell'accessibilità è stata svolta sul sito dell'Università degli studi di Udine http://www.uniud.it/it e si basa sull'uso delle barriere proposte dal Professor Giorgio Brajnik.
+
