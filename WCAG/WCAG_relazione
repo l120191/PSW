@@ -55,7 +55,26 @@ Indice requisiti:
 Il sito analizzato non è conforme a nessun livello previsto dalle WCAG 2.0.
 
 Risultati in dettaglio:
-    1.1   Fornire alternative testuali per ogni contenuto non testuale.
+    1.1 Fornire alternative testuali per ogni contenuto non testuale.
         
-        1.1.1 
-
+        1.1.1   Tutti i contenuti non testuali presentati all'utente hanno un'alternativa testuale equivalente che serve allo stesso scopo (Livello A)
+                Esito:Fallito
+                Soluzione:aggiungi attributo alt ad ogni elemento img
+        
+    1.2 Fornire alternative per i tipi di media temporizzati.
+        
+        Non sono presenti media audio o video nelle pagine prese in esame.
+        
+    1.3 Creare contenuti che possano essere rappresentati in modalità differenti.
+    
+        1.3.1   Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo. (Livello A)
+                Esito:
+                
+        1.3.2   Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente. (Livello A)
+                Esito:
+                
+        1.3.3   Le istruzioni fornite per comprendere ed operare sui contenuti non devono basarsi unicamente su caratteristiche sensoriali dei componenti quali forma, dimensione, ubicazione visiva, orientamento o il suono. (Livello A)
+                Esito:
+                
+    1.4 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti.
+                        	
