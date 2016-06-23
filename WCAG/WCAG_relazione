@@ -1,6 +1,6 @@
 Introduzione:
 
-L'analisi di conformità del sito web della Trenitalia è stata effettuata valutando i criteri di successo rispetto gli standard del WCAG 2.0 di livello A e AA.
+L'analisi di conformità del sito web della Trenitalia è stata effettuata valutando i criteri di successo rispetto gli standard del WCAG 2.0 di livello AA.
 
 Per ogni requisito è indicato l'esito (Passato/Fallito/Non Presente) e un breve commento per giustificare l'esito di tale scelta.
 Sono state analizate più pagine, se per una sola di queste pagine abbiamo rilevato un fallimento, allora abbiamo considerato fallito il requisito in esame per tutto il sito.
@@ -37,14 +37,14 @@ Indice requisiti:
     2 - Operabilità
     
         2.1   [F]       Rendere disponibili tutte le funzionalità tramite tastiera.
-        2.2   [F]       Fornire agli utenti tempo sufficiente per leggere ed utilizzare i contenuti.
+        2.2   [NP]       Fornire agli utenti tempo sufficiente per leggere ed utilizzare i contenuti.
         2.3   [NP]      Non sviluppare contenuti che possano causare attacchi epilettici.
         2.4   [F]       Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.
  
     3 - Comprensibilità
     
         3.1   [P]      Rendere il testo leggibile e comprensibile.
-        3.2   [???]      Creare pagine Web che appaiano e che siano prevedibili.
+        3.2   [F]      Creare pagine Web che appaiano e che siano prevedibili.
         3.3   [F]      Aiutare gli utenti ad evitare gli errori ed agevolarli nella loro correzione.
     
     4 - Robustezza
@@ -68,7 +68,7 @@ Risultati in dettaglio:
     1.3 Creare contenuti che possano essere rappresentati in modalità differenti.
     
         1.3.1   Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo. (Livello A)
-                Esito:
+                Esito:Fallito
                 
         1.3.2   Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente. (Livello A)
                 Esito:
@@ -77,4 +77,95 @@ Risultati in dettaglio:
                 Esito:
                 
     1.4 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti.
-                        	
+    
+        1.4.1   Il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva. (Livello A)
+                Esito:
+                
+        1.4.2   Se un contenuto audio all'interno di una pagina Web è eseguito automaticamente per più di tre secondi è necessario fornire una funzionalità per metterlo in pausa o interromperlo, oppure si deve fornire una modalità per il controllo dell'audio che sia indipendente dal controllo predefinito del sistema. (Livello A)
+                Esito:
+                
+        1.4.3   La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi:  [...] (Livello AA)
+                Esito:
+        
+        1.4.4   Il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità. (Livello AA)
+                Esito:
+                
+        1.4.5   Se le tecnologie utilizzate consentono la gestione della rappresentazione visiva dei contenuti, il testo è utilizzato per veicolare informazioni piuttosto che le immagini di testo, ad eccezione dei seguenti casi: [...] (Livello AA)
+                Esito:
+    
+    2.1 Rendere disponibili tutte le funzionalità tramite tastiera.
+    
+        2.1.1   Tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per le singole battiture, salvo il caso in cui sia la funzionalità di fondo a richiedere un input che dipende dal percorso del movimento dell'utente e non solo dai suoi punti d'arrivo. (Livello A)
+                Esito:Fallito
+                Commenti:Impossibile navigare tramite tastiera
+                
+        2.1.2   Se il focus può essere portato tramite interfaccia di tastiera su un componente della pagina, deve anche poter essere spostato dallo stesso componente sempre tramite interfaccia di tastiera e, se a tal fine non fosse sufficiente l'uso dei normali tasti freccia o tab o l'uso di altri metodi di uscita standard, l'utente deve essere informato sul metodo per rilasciare il focus. (Livello A)
+                Esito:Passato
+                
+    2.2 Fornire agli utenti tempo sufficiente per leggere ed utilizzare i contenuti.
+    
+        2.2.1   Per ogni temporizzazione presente nel contenuto l'utente può disabilitarla, modificarla o esternderla  (Livello A) 
+                Esito:Non Presente
+                
+        2.2.2   Nei casi di contenuto in movimento o contenuto che si aggiorna automaticamente deve essere presente la possibilità di fermare il contenuto se questo è essenziale per svolgere una data attività (Livello A)
+                Esito:Non presente
+                Commento:Nella home ci sarebbe una slideshow che non può essere stoppata, ma trattandosi di un contenuto non essenziale non è stata presa in considerazione.
+        
+    2.3 Non sviluppare contenuti che possano causare attacchi epilettici.
+    
+        2.3.1   Le pagine Web non devono contenere nulla che lampeggi per più di tre volte al secondo oppure il lampeggiamento è al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso. (Livello A)
+                Esito:Non presente
+    
+    2.4 Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.
+    
+        2.4.1   Fornire una modalità per saltare i blocchi di contenuto che si ripetono su più pagine Web. (Livello A)
+                Esito:Fallito
+                Commento:Non è presente nessun metodo per saltare il menu di inizio pagina
+                
+        2.4.2   Le pagine Web hanno titoli che ne descrivono l'argomento o la finalità. (Livello A)
+                Esito:Passato
+                
+        2.4.3   Se una pagina Web può essere navigata in modo sequenziale e le sequenze di navigazione influiscono sul significato e sul funzionamento, gli oggetti che possono ricevere il focus lo ricevono in un ordine che ne conserva il senso e l'operatività. (Livello A)
+                Esito:Passato
+                
+        2.4.4   Lo scopo di ogni collegamento può essere determinato dal solo testo del collegamento oppure dal testo del collegamento insieme a dei contenuti contestuali che possono essere determinati programmaticamente, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per la gran parte degli utenti. (Livello A)
+                Esito:Passato
+        
+        2.4.5   Rendere disponibile più di una modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione. (Livello AA)
+                Esito:Passato
+        
+        2.4.6   Utilizzare intestazioni ed etichette per descrivere argomenti o finalità. (Livello AA)
+                Esito:Fallito
+                Soluzione:modificare i livelli di annidamento degli header in modo che ad un h1 segua solamente un h2 oppure un h1.
+        
+        2.4.7   Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una funzionalità operativa in cui è visibile l'indicatore del focus. (Livello AA)
+                Esito:Fallito
+                Commenti:Impossibile stabilire dove sia il focus
+                
+    3.1 Rendere il testo leggibile e comprensibile.
+        
+        3.1.1   L'impostazione della lingua predefinita di ogni pagina Web può essere determinata programmaticamente. (Livello A)
+                Esito:Passato
+                
+        3.1.2   La lingua di ogni passaggio o frase nel contenuto può essere determinata programmaticamente ad eccezione di nomi propri, termini tecnici, parole in lingue indeterminate e parole o frasi che sono diventate parte integrante del gergo del testo immediatamente circostante. (Livello AA)
+                Esito:Passato
+        
+    3.2 Creare pagine Web che appaiano e che siano prevedibili.
+    
+        3.2.1   Quando qualsiasi componente riceve il focus, non deve avviare automaticamente un cambiamento del contesto. (Livello A)
+                Esito:Passato
+        
+        3.2.2   Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente. (Livello A)
+                Esito:
+                
+        3.2.3   I meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web, devono apparire nello stesso ordine corrispondente ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente. (Livello AA)
+                Esito:Passato
+                
+        3.2.4   I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo univoco. (Livello AA)
+                Esito:Fallito
+                
+    3.3  Aiutare gli utenti ad evitare gli errori ed agevolarli nella loro correzione.
+    
+        3.3.1   Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e descritto tramite testo. (Livello A)
+                Esito:Passato
+        
