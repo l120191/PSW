@@ -63,12 +63,27 @@ Risultati in dettaglio:
         
     1.2 Fornire alternative per i tipi di media temporizzati.
         
-        Non sono presenti media audio o video nelle pagine prese in esame.
+        1.2.1   Per i tipi di media preregistrati di solo audio e di solo video, a meno che questi non costituiscano un tipo di media alternativo ad un contenuto testuale chiaramente etichettato come tale, vengono soddisfatti i seguenti punti: (Livello A)
+                Esito:Non presente
+                
+        1.2.2   Per tutti i contenuti audio presenti in tipi di media preregistrati sono forniti sottotitoli sotto forma di tipi di media sincronizzati, eccetto quando tali tipi di media sono l'alternativa di testi e sono chiaramente etichettati come tali. (Livello A)
+                Esito:Non presente
+                
+        1.2.3   Un'alternativa per i tipi di media temporizzati oppure una descrizione audio per i contenuti video preregistrati sono forniti per i tipi di media sincronizzati, eccetto quando il tipo di media è un tipo di media alternativo ad un contenuto testuale ed è chiaramente etichettato come tale. (Livello A)
+                Esito:Non presente
+                
+        1.2.4   I sottotitoli sono forniti per tutti i contenuti audio in tempo reale sotto forma di tipi di media sincronizzati. (Livello AA)
+                Esito:Non presente
+                
+        1.2.5   Una descrizione audio è fornita per tutti i contenuti video preregistrati sotto forma di tipi di media sincronizzati. (Livello AA)
+                Esito:Non presente
         
     1.3 Creare contenuti che possano essere rappresentati in modalità differenti.
     
         1.3.1   Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo. (Livello A)
                 Esito:Fallito
+                Soluzione:aggiungere all'interno dell'etichetta del controllo un elemento label,impostare l'attributo for dell'elemento label allo stesso valore dell'attributo id del controllo. E/O aggiungere un attributo title all'attributo element. 
+                E/O creare un elemento label che contenga l'elemento input
                 
         1.3.2   Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente. (Livello A)
                 Esito:
@@ -79,7 +94,7 @@ Risultati in dettaglio:
     1.4 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti.
     
         1.4.1   Il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva. (Livello A)
-                Esito:
+                Esito:Passato
                 
         1.4.2   Se un contenuto audio all'interno di una pagina Web è eseguito automaticamente per più di tre secondi è necessario fornire una funzionalità per metterlo in pausa o interromperlo, oppure si deve fornire una modalità per il controllo dell'audio che sia indipendente dal controllo predefinito del sistema. (Livello A)
                 Esito:
@@ -88,7 +103,8 @@ Risultati in dettaglio:
                 Esito:
         
         1.4.4   Il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità. (Livello AA)
-                Esito:
+                Esito:Fallito
+                Soluzione:sostituire gli elementi b (grassetto) con em oppure strong
                 
         1.4.5   Se le tecnologie utilizzate consentono la gestione della rappresentazione visiva dei contenuti, il testo è utilizzato per veicolare informazioni piuttosto che le immagini di testo, ad eccezione dei seguenti casi: [...] (Livello AA)
                 Esito:
@@ -121,6 +137,7 @@ Risultati in dettaglio:
         2.4.1   Fornire una modalità per saltare i blocchi di contenuto che si ripetono su più pagine Web. (Livello A)
                 Esito:Fallito
                 Commento:Non è presente nessun metodo per saltare il menu di inizio pagina
+                Soluzione:Aggiungere un link ad inizio pagina che permetta di andare direttamente al contenuto principale
                 
         2.4.2   Le pagine Web hanno titoli che ne descrivono l'argomento o la finalità. (Livello A)
                 Esito:Passato
@@ -156,16 +173,35 @@ Risultati in dettaglio:
                 Esito:Passato
         
         3.2.2   Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente. (Livello A)
-                Esito:
+                Esito:Passato
                 
         3.2.3   I meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web, devono apparire nello stesso ordine corrispondente ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente. (Livello AA)
                 Esito:Passato
                 
         3.2.4   I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo univoco. (Livello AA)
                 Esito:Fallito
+                Commento:Non soddisfatte i criteri sufficienti per il requisito 1.1.1 
                 
     3.3  Aiutare gli utenti ad evitare gli errori ed agevolarli nella loro correzione.
     
         3.3.1   Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e descritto tramite testo. (Livello A)
                 Esito:Passato
         
+        3.3.2   Fornire etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente. (Livello A)
+                Esito:Fallito
+                Soluzione:Inserire del testo nell'elemento label
+                
+        3.3.3   Se viene identificato un errore di inserimento che si può correggere, è necessario fornire suggerimenti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto. (Livello AA)
+                Esito:Passato
+                
+        3.3.4   Per le pagine Web che contengono vincoli di tipo giuridico o finanziario o che gestiscono inserimento, cancellazione, gestione di dati controllabili dall'utente in un sistema di archiviazione oppure che inoltrano delle risposte di utenti a test o una volta inviati i dati c'è modo di modificarli, o il sistema ti avvisa di eventuali errori, o puoi modificare e controllare i dati quando vuoi. (Livello AA)
+                Esito:Passato
+                
+    4.1 Garantire la massima compatibilità con gli user agent attuali e futuri, comprese le tecnologie assistive.
+    
+        4.1.1   Nel contenuto implementato utilizzando linguaggi di marcatura gli elementi possiedono tag di apertura e chiusura completi, sono annidati in conformità alle proprie specifiche, non contengono attributi duplicati e tutti gli ID sono unici, salvo il caso in cui le specifiche permettano eccezioni. (Livello A)
+                Esito:Fallito
+                Soluzione:Modificare il valore dell'attributo id in modo che sia univoco
+                
+        4.1.2   Per tutti i componenti dell'interfaccia utente (inclusi ma non limitati a: elementi di un modulo, collegamenti e componenti generati da script), name (nome) e role (ruolo) devono essere determinati programmaticamente; stati, proprietà e valori che possono essere impostati dall'utente devono essere impostabili da programma; e le notifiche sui cambi di stato di questi elementi devono essere rese disponibili ai programmi utente, incluse le tecnologie assistive. (Livello A)
+                Esito:Passato
