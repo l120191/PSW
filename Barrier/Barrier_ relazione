@@ -1,6 +1,7 @@
 Teoria - Analisi - Perimetro indagini - casi - risultati
 
-TEORIA
+INTRODUZIONE
+
 
 La simulazione euristica guidata da barriere è un metodo che viene utilizzato per la verifica dell'accessibilità, permette quindi di di verificare il livello di: 
 	- efficacia
@@ -35,11 +36,88 @@ Per quanto riguarda l'impatto e la frequenza, per valutarne la gravità sono sta
 
 _______________TABELLA DI GRAVITA'______________________________
 
+************************************************************************************************************
+
+PERIMETRO DELLE INDAGINI
+
+
+Le categorie di utenti che sono stati considerati per la simulazione euristica guidata dalle barriere sono:
+1. Ipovedenti
+2. Daltonici
+3. Utenti che utlizzano il brawser con Javascript disabilitato
+ 
+ 
+Per quanto riguarda le pagine analizzate sono state scelte: 
+1. Home -  www.uniud.it/it
+2. Area internazionale - www.uniud.it/it/international-area
+
+
+---> Ipovedente 
+
+Le barriere possono essere suddivise in: 
+
+- Barriere della percezione 
+- Barriere dell'utilizzazione
+- Barriere della comprensioen
+- Barriere al controllo da parte dell'utente 
+
+
+
+1. Immagini ricche che sono mal posizionate (percezione)
+
+2. Immagini ricche incluse nella pagina di sfondo (percezione)
+
+3. Il colore è necessario (percezione)
+ 
+4. Contrasto visuale insufficiente (percezione)
+
+5. Frame inaccessibili (percezione)
+
+6. Contenuti in movimento (percezione)
+
+7. Mappe immagini (percezione)
+
+8. Immagini funzionali incorporare nello sfondo (utiliazzazione)
+
+9. Immagini funzionali prive di testo (utiliazzazione)
+
+10. Tooltips troppo lungo (percezione/ utilizzazione)
+
+11. Menù dinamici in Javascript (utiliazzazione)
+
+12. Link interni mancanti (utilizzazione/controllo utente )
+
+13. Linee di testo troppo lunghe (controllo utente )
+
+14. Troppi links (compensione)
+
+15. Form con reindirizzamento (utilizzazione)
+
+16. Form formattati troppo ampiamente (utiliazzazione)
+
+17. Sovrapposizione delle finestre (utiliazzazione)
+
+18. Refresh pagina troppo veloce (utiliazzazione)
+
+19. Uso di un'immagine come titolo (compensione/percezione)
+
+20. Nessuna scorciatoia da tastiera (controllo utente)
+
+21. Testo non ridimensionabile (controllo utente)
+
+22. Layout pagina non adattabile (controllo utente)
+
+23. Elementi grafici mancanti (percezione/ compensione)
+
+24. Impossibilità di passare da un link all'altro (tab) (controllo utente)
+
+25. Finestra senza controllo browser (controllo utente)
+
+26. Dati della tabella ordinabili (utiliazzazione)
+
+27. Cambiamenti dinamici (percezione)
 
 
 
 
-
-
-La simulazione euristica guidata da barriere per la verifica dell'accessibilità è stata svolta sul sito dell'Università degli studi di Udine http://www.uniud.it/it e si basa sull'uso delle barriere proposte dal Professor Giorgio Brajnik.
 
