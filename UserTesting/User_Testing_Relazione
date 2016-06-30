@@ -1,1 +1,56 @@
+Il test è stato eseguito il 
+
+Caso d'uso 1
+
+Descrizione: Domani sera sarai a casa e vuoi sapere se faranno qualcosa che ti può interessare in tv, cerca la programmazione tv di domani in prima serata.
+Livello di difficoltà: Basso
+Tempo Massimo:
+Pagina di partenza: Home
+Pagina di arrivo:
+Percorso previsto: guida tv>”selezione giorno”>
+
+Caso d'uso 2
+
+Descrizione: Ti interessa reperire delle informazioni riguardanti al programma tv “Lynx Magazine”,trova il nome delle persone che si occupano del suddetto programma.
+Livello di difficoltà: Basso
+Tempo Massimo:
+Pagina di partenza: Home
+Pagina di arrivo:
+Percorso previsto: i programmi>lynx magazine
+
+Caso d'uso 3
+
+Descrizione: Vuoi ascoltare quello che va in onda ora alla radio, trova e ascolta il canale radio attualmente in onda.
+Livello di difficoltà: Basso
+Tempo Massimo:
+Pagina di partenza: Home
+Pagina di arrivo:
+Percorso previsto: play
+
+Caso d'uso 4
+
+Descrizione: Tua nonna ti chiede quando andrà in onda il programma radio “racconti sceneggiati”, cerca la prossima messa in onda del programma. 
+Livello di difficoltà: Medio
+Tempo Massimo:
+Pagina di partenza: Guida TV
+Pagina di arrivo:
+Percorso previsto: scopri la messa in onda di un programma>inserimento nome programma
+
+Caso d'uso 5
+
+Descrizione: In un programma che hai visto pochi giorni fa hanno divulgato delle informazioni non del tutto corrette, vuoi scrivere alla direzione per esprimere il tuo disappunto, cerca la mail della direzione.
+Livello di difficoltà: Medio
+Tempo Massimo:
+Pagina di partenza: Home
+Pagina di arrivo:
+Percorso previsto: la sede
+
+Caso d'uso 6
+
+Descrizione: Vuoi riascoltare una notizia che ti interessa mandata in onda dal tg qualche giorno fa, riguarda la puntata del tg della notte di due giorni fa.
+Livello di difficoltà: Alto
+Tempo Massimo:
+Pagina di partenza: Home
+Pagina di arrivo:
+Percorso previsto: menu di navigazione in fondo a destra(ultimo tgr)
 
