@@ -52,7 +52,7 @@ Per quanto riguarda le pagine analizzate sono state scelte:
 2. Area internazionale - www.uniud.it/it/international-area
 
 
----> Ipovedente 
+---> IPOVEDENTE
 
 Le barriere possono essere suddivise in: 
 
@@ -65,59 +65,212 @@ Le barriere possono essere suddivise in:
 
 1. Immagini ricche che sono mal posizionate (percezione)
 
+	Barriera assente 
+	Nelle pagine analizzate sono presenti immagini che si possono trovare al di fuori del campo visivo, ma non è presente un layout che possa dare una percezione errata della pagina credendo ci sia un'interruzione e l'utente non si accorga della presenza dell'immagine.
+
 2. Immagini ricche incluse nella pagina di sfondo (percezione)
 
-3. Il colore è necessario (percezione)
+	Barriera assente 
+	Sono presenti immagini incluse nella pagina di sfondo, ma il loro inserimento non è stato appplicato tramite CSS.
+
+3. Il colore è indispensabile (percezione)
+
+	Barriera assente 
+	E' presente del testo con differente colore, ma non viene utilizzato per una rilevante distinzione di informazioni distinguibile esclusivamente dal colore. 
  
 4. Contrasto visuale insufficiente (percezione)
-
+	
+	Barriera presente
+	Nella pagina Home è presente uno slideshow e per ogni immagine 
+	e sopra di essa è presente del testo, questo porta ad una difficile se non impossibile lettura del testo.
+	Una possibile soluzione potrebbe essere quella creare un riquadro monocromatico dentro al quale inserire il testo, ovviamente mantenendo grado di contrasto sufficiente per la lettura.
+	
 5. Frame inaccessibili (percezione)
+	
+	Barriera assente 
+	Non sono presenti situazioni in cui al click di un link o bottone ci sia la comparsa di un nuovo frame, infatti nella maggior parte delle volte il contenuto viene visualizzato ricaricando la pagina corrente ad una nuova.
 
 6. Contenuti in movimento (percezione)
+ 
+    Barriera presente
+	E' presente uno slideshow nella pagina Home dove 5 immagini che rappresentano le notizie più importanti con del testo posizionato sopra si alternano con un intervallo di tempo di circa 10 secondi.
+	Una possibile soluzione potrebbe essere quella di eliminare il timer automatico e mantenere il già presente metedoto di selezione manuale rappresentato con dei cerchietti.
 
 7. Mappe immagini (percezione)
 
+	Barriera assente 
+	Nelle pagine analizzate non sono state trovate mappe.
+
 8. Immagini funzionali incorporare nello sfondo (utiliazzazione)
+	
+	Barriera assente
+	La ridimensione della pagina del browser o l'aumento del testo non influisce sulle immagini presenti, inoltre non sono presenti immagini di tipo funzionale, poichè quelle presenti sono di tipo 'decorativo'.
 
 9. Immagini funzionali prive di testo (utiliazzazione)
 
+	Barriera assente 
+	Sono presenti delle immagini in entrambe le pagine analizzate, ma possono essere considerate 'decorative' e non funzionali, poichè senza la loro presenza non si sarebbe nessuna informazione in meno.
+
 10. Tooltips troppo lungo (percezione/ utilizzazione)
+	
+	Barriera 
 
 11. Menù dinamici in Javascript (utiliazzazione)
-
-12. Link interni mancanti (utilizzazione/controllo utente )
-
+	
+	Barriera presente 
+	In entrambe le pagine analizzate sono presenti menù dinamici, disabilitando JavaScript nella Home il menu 'info per' si espande, senza la possibilità di ridurlo, mentre per il menu 'Ateneo' non è più possibile utilizzarlo. Per quanto riguarda l'altra pagina, anche qui alcuni voci presentano  dei menu espandibili, ma disabilitando JavaScript diventano inutilizzabili.
+	Una possibile soluzione potrebbe essere quella di realizzare una pagina intermedia che mostri tutte le voci del menu.
+	
+12. Link interni mancanti (utilizzazione/controllo utente)
+	
+	Barriera assente
+	La presenza di link interni è presente, infatti nella Home cliccando sullo slideshow riporta alla notizia corrispondente nella parte inferiore della pagina, ma nel caso in cui non ci fossero non comporterebbe un problema poiché le pagine hanno una struttura semplice e non è troppo ricca di contenuti.
+	
 13. Linee di testo troppo lunghe (controllo utente )
+	
+	Barriera assente 
+	Le linee di testo delle pagine analizzate nel momento in cui si applica l'ingranditore di schermo si adattano (nei limiti del possibile) in modo da non avere difficoltà nella lettura per il continuo spostamento della finestra.
 
 14. Troppi links (compensione)
+	
+	Barriera assente
+	Nelle pagine analizzate sono presenti diversi link, in particolar modo nella pagina di International Area, ma comunque sono stati raggrupati in categorie più significative.
 
 15. Form con reindirizzamento (utilizzazione)
+	
+	Barriera assente
+	Nelle pagine analizzate non sono presenti form.
 
 16. Form formattati troppo ampiamente (utiliazzazione)
+	
+	Barriera assente
+	..........................
 
 17. Sovrapposizione delle finestre (utiliazzazione)
+	
+	Barriera assente
+	Nelle pagine analizzate non si sono verificate situazioni in cui si aprino finestre nuove oltre a quella corrente.
 
 18. Refresh pagina troppo veloce (utiliazzazione)
+	
+	Barriera assente
+	Nelle pagine analizzate non abbiamo riscontrato un refresh della pagina automatico.
 
 19. Uso di un'immagine come titolo (compensione/percezione)
 
+	Barriera assente 
+	Nelle pagine è presente a scritta 'Universtià degli studi di Udine', ma è stato considerato come un logo e non come titolo della pagina.
+
 20. Nessuna scorciatoia da tastiera (controllo utente)
+	
+	Barriera presente
+	Non sono state trovate delle scorciatoie da tastira.
+	Una possibile soluzione potrebbe essere quella di aggiungere qualche scorciatoia almeno per le voci principali. Con il campo accesskey
 
 21. Testo non ridimensionabile (controllo utente)
+	
+	Barriera assente
+	Il testo presente nelle pagina è ridimensionabile e si adatta alla pagina in modo da non effetturare un continuo scrolling orrizzontale e verticale per leggere.
 
 22. Layout pagina non adattabile (controllo utente)
+	
+	Barriera assente
+	La modifica dell'altezza e larghezza della finestra del browser non compromette la posizione e le dimensioni del contenuto della pagina.
 
 23. Elementi grafici mancanti (percezione/ compensione)
+	
+	Barriera assente 
+	Nelle pagine analizzate sono presenti alcuni elementi grafici, come per esempio la barra orrizzontale, ma con il ridimensionamento della pagina si adattano ad essa e al contenuto.
 
 24. Impossibilità di passare da un link all'altro (tab) (controllo utente)
+	
+	Barriera presente 
+	???????????
 
 25. Finestra senza controllo browser (controllo utente)
+	
+	Barriera assente 
+	Le pagine analizzate sono state visualizzate con diversi browser(Opera, Firefox, Chrome e Edge) e non si è verificata nessuna modifica della posizione dei contenuti.
 
 26. Dati della tabella ordinabili (utiliazzazione)
 
+	Barriera assente
+	Non è presente nessuna tabella, quindi questo tipo di barriera non è verificabile.
+
 27. Cambiamenti dinamici (percezione)
 
+	Barriera assente 
+	Non sono presenti elementi che si muovono in maniera asincrona, tipo la comparsa di messaggi.
 
 
 
+---> DALTONICO
 
+1. Il colore è indispensabile (percezione)
+
+	Barriera assente 
+	E' presente del testo con differente colore, ma non viene utilizzato per una rilevante distinzione di informazioni distinguibile esclusivamente dal colore. 
+
+2. Contrasto visuale insufficiente (percezione)
+	
+	Barriera presente
+	Nella pagina Home è presente uno slideshow e per ogni immagine 
+	e sopra di essa è presente del testo, questo porta ad una difficile se non impossibile lettura del testo.
+	Una possibile soluzione potrebbe essere quella creare un riquadro monocromatico dentro al quale inserire il testo, ovviamente mantenendo grado di contrasto sufficiente per la lettura.
+
+
+---> SENZA JAVASCRIPT
+
+1.  Menù dinamici in Javascript (utiliazzazione)
+	
+	Barriera presente 
+	In entrambe le pagine analizzate sono presenti menù dinamici, disabilitando JavaScript nella Home il menu 'info per' si espande, senza la possibilità di ridurlo, mentre per il menu 'Ateneo' non è più possibile utilizzarlo. Per quanto riguarda l'altra pagina, anche qui alcuni voci presentano  dei menu espandibili, ma disabilitando JavaScript diventano inutilizzabili.
+	Una possibile soluzione potrebbe essere quella di realizzare una pagina intermedia che mostri tutte le voci del menu.
+	
+2. Menù a cascata
+
+	Barriera presente 
+	Nello slideshow della pagina Home è presente il menu a cascata 'info per' che rimane espanso e copre una parte dell'immagine di sfondo, quindi questo potrebbe non essere un problema rilevante, ma il menu che corrisponde ad 'Ateneo' non funziona, quindi non permette di utilizzare le voci del menu stesso. Lo stesso problema si verifica nella pagina International Area, dove alcune voci sono dei menu a cascata e disabilitando JavaScript questi non funzionano più.
+	Una possibile soluzione è quella di non evitare l'utilizzo di menu a cascata, implementando menu separati
+
+3. Eventi del mouse 
+
+	Barriera presente
+	I menu 'Info per' e 'Ateneo' nella pagina Home si espandono quando il mouse si posiziona su di essi. 
+	Una possibile soluzione potrebbe essere quella di utilizzare anche gestori di eventi logici in aggiunta a quelli del mouse, però sarebbe meglio se le funzionalità fossero raggiunte anche senza JavaScript.
+	
+4. Autocompilamento del form
+
+	Barriera assente 
+	Non sono presenti dei form nelle pagine analizzate 
+	
+5. Form con rindirizzamento
+
+	Barriera assente
+	Non sono presenti dei form da compliare 
+	
+6. Validazione campi
+
+	Barriera assente
+	Non sono presenti dei campi da compilare 
+	
+7. Campi nascosti
+	
+	Barriera assente
+	..................
+
+8. Nuove finestre
+
+	Barriera assente
+	Non si verifica la comparsa di nuove finestre al click di bottoni o link, ma avviene il ricaricamento della pagina stessa
+
+9. Finestre senza controlli del browser
+
+	Barriera assente
+	....................................
+
+10. Javascript è indispensabile
+	
+	Barriera assente
+	Disabilitando JavaScript le pagine analizzate vengono visualizzate ugualmente, ma alcune funzionalità (per esempio il menu 'Ateneo') non possono essere utilizzate, abbiamo quindi una limitazione, ma questo tipo di barriera è stato già analizzato al punto 1 e 2.
+	
