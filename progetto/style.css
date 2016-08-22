@@ -1,0 +1,163 @@
+/* Impostazioni generali */
+
+#contenitore{
+	font-family : Arial,"sans serif";
+	width:100%;
+  background-color: #fffff;
+}
+
+/* Intestazione principale */
+#intestazione{
+  background-color:#E624D6;
+  border: 1px solid transparent;
+  /*border-style: none;*/
+  margin-top: 1%;
+  padding-bottom: auto;
+}
+
+#intestazione img{
+  float: left;
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+  width: 9%;
+}
+
+#intestazione h1{
+	text-align:center;
+	margin-top:1%;
+}
+
+#intestazione h2{
+	text-align:center;
+	padding-bottom:1%;
+}
+
+/* Menu laterale */
+
+#menulaterale{
+  float: left;
+  background-color:#F4B4EA ;
+  border: 1px solid transparent;
+  margin-top: 1%;
+  padding: auto;
+
+}
+
+#menulaterale h3{
+  float: center;
+  background-color:#E630D6;
+  border: 1px solid transparent;
+  margin-top: 0%;
+  /*padding: 1%;
+	padding-left: 15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:0px;
+	margin-bottom: 10px;
+	background-color :#e3eefc;
+	border-bottom: 1px black solid;*/
+
+}
+
+#menulaterale h5{
+  float: center;
+  /*background-color:#E610D6;*/
+  border: 1px solid transparent;
+  margin-top: 1%;
+  padding: 1%;
+
+}
+
+/* Menu centrale*/
+#menucentrale{
+	margin-left:4%;
+	margin-bottom:1%;
+	border:0px solid;
+	background-color: #ffffff;
+}
+
+ul#menu {
+    padding-top: 1%;
+		padding-left: 6%;
+    margin:0.5%;
+}
+
+ul#menu li{
+  display:inline;
+  padding-left:0.6%;
+  padding-right:0.6%;
+  padding-bottom:0.6%;
+  padding-top:0.6%;
+  background-color: #F4B4EA;
+  border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Contenuto principale */
+
+#contentuto_principale{
+	padding-bottom:1%;
+	margin-left:4%;
+  margin-top:0;
+}
+	/* Titolo sezione */
+#sezione_centrale{
+	margin-top:20%;
+	width:70%;
+  margin-left:none;
+}
+
+#titolo_sezione{
+	padding-top:0.5%;
+	padding-bottom:0.1%;
+  margin-right:0%;
+	margin-left: 6.5%;
+  margin-top:-0.7%;
+	background-color: #E610D6;
+	font-size:16px;
+	text-align:center;
+	border: 1px solid transparent;
+
+}
+	/* Contenuto */
+
+	.sotto_sezioni {
+
+		padding-left:4%;
+		margin-left:6.5%;
+		margin-right:0%;
+		margin-top:-0.7%;
+		border: 1px solid transparent;
+		background-color :#F4B4EA;
+		}
+
+	.sotto_sezioni li{
+		padding-bottom:0.5em;
+		padding-top:5px;
+	}
+
+	fieldset {
+		margin-top : 20px;
+		margin-bottom:10px;
+	}
+
+
+/* Info */
+	#info {
+		float:left;
+		width : 100%;
+		margin-bottom:5px;
+	  font-size:12px;
+		text-align:center;
+		border:1px solid transparent;
+		background-color :#F4B4EA;}
+
+
+#salta{
+	font-size: 11px;
+	padding-left:auto;
+}
